@@ -1,0 +1,37 @@
+img {
+    margin: 0px;
+    display: block;
+  }
+  
+  p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 1em;
+  }
+  
+  table {
+    border-collapse: collapse;
+    opacity: 0%;
+  }
+  
+  table td {
+    border: 1px solid #111;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 5px;
+  }
+  
+  button {
+    margin: 1em;
+    padding: 1em;
+    border: none;
+    background-color: #FFA07A;
+    color: #111 ;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  
+  .show {
+    opacity: 100%;
+  }
