@@ -1,4 +1,4 @@
-window.onload = function generate(){
+window.onload = function(){
 
 
 
