@@ -564,8 +564,21 @@ TrueFalse.forEach(  cell => {
 
 }
 
+let save = document.querySelector('button.save').onclick = function (){
+      let elem = document.getElementById('wrap')
 
+    let doc = new jsPDF('p', 'pt', 'a4')
 
+    await html2canvas(elem, {
+        allowTaint: true,
+        useCORS: true,
+        width: 250
+    }).then((canvas) => {
+        doc.addImage(canvas.toDataURL("image/png", 'PNG', 5, 5, ))
+    })
+    doc.save('a4.pdf')
+
+}
 
 
 
