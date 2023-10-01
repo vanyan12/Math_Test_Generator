@@ -1,4 +1,4 @@
-window.onload = setTimeout(generate, 5000)
+window.onload = setTimeout(generate, 0)
   
   function generate(){
 
