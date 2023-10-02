@@ -295,7 +295,7 @@ TrueFalse.forEach(  cell => {
 let save = document.querySelector('button.save').onclick = function (){
       window.jsPDF = window.jspdf.jsPDF;
 var docPDF = new jsPDF();
-function print(){
+
 var elementHTML = document.querySelector("#printTable");
 docPDF.html(elementHTML, {
  callback: function(docPDF) {
@@ -309,7 +309,7 @@ docPDF.html(elementHTML, {
 }
     console.log('done')
 
-}
+
 
 
 
