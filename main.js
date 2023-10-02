@@ -569,7 +569,7 @@ let save = document.querySelector('button.save').onclick = function (){
 
     let doc = new jsPDF()
 
-    await html2canvas(elem, {
+     html2canvas(elem, {
         allowTaint: true,
         useCORS: true
     }).then((canvas) => {
