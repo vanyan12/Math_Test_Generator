@@ -296,10 +296,10 @@ let save = document.querySelector('button.save').onclick = function (){
       window.jsPDF = window.jspdf.jsPDF;
 var docPDF = new jsPDF();
 
-var elementHTML = document.querySelector("#printTable");
+var elementHTML = document.body;
 docPDF.html(elementHTML, {
  callback: function(docPDF) {
-  docPDF.save('HTML Linuxhint web page.pdf');
+  docPDF.save('page.pdf');
  },
  x: 15,
  y: 15,
