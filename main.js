@@ -123,107 +123,108 @@ let Tasks = document.querySelectorAll('img').forEach(function(item){
         switch (item.id) {
             case 'section1':
 
-                item.src = Pictures.section1[random1]
+                item.src = `./Pictures/Section1/Section1-${random1}.png`
+                // Pictures.section1[random1]
                 break;
 
             case 'section2':
 
-                item.src = Pictures.section2[random2]
+                item.src = `./Pictures/Section2/Section2-${random2}.png`
                 break;
 
             case 'section3':
 
-                item.src = Pictures.section3[random3]
+                item.src = `./Pictures/Section3/Section3-${random3}.png`
                 break;
 
             case 'section4':
 
-                item.src = Pictures.section4[random4]
+                item.src = `./Pictures/Section4/Section4-${random4}.png`
                 break;
 
             case 'section5':
 
-                item.src = Pictures.section5[random5]
+                item.src = `./Pictures/Section5/Section5-${random5}.png`
                 break;
 
             case 'section6':
 
-                item.src = Pictures.section6[random6]
+                item.src = `./Pictures/Section6/Section6-${random6}.png`
                 break;
 
             case 'section7':
 
-                item.src = Pictures.section7[random7]
+                item.src = `./Pictures/Section7/Section7-${random7}.png`
                 break;
 
             case 'section8':
 
-                item.src = Pictures.section8[random8]
+                item.src = `./Pictures/Section8/Section8-${random8}.png`
                 break;
 
             case 'section9':
 
-                item.src = Pictures.section9[random9]
+                item.src = `./Pictures/Section9/Section9-${random9}.png`
                 break;
 
             case 'section10':
 
-                item.src = Pictures.section10[random10]
+                item.src = `./Pictures/Section10/Section10-${random10}.png`
                 break;
 
             case '2section1':
 
-                item.src = Pictures.section2_1[random2_1]
+                item.src = `./Pictures/2Section1/2Section1-${random2_1}.png`
                 break;
 
             case '2section2':
 
-                item.src = Pictures.section2_2[random2_2]
+                item.src = `./Pictures/2Section2/2Section2-${random2_2}.png`
                 break;
 
             case '2section3':
 
-                item.src = Pictures.section2_3[random2_3]
+                item.src = `./Pictures/2Section3/2Section3-${random2_3}.png`
                     break;
 
             case '2section4':
 
-                item.src = Pictures.section2_4[random2_4]
+                item.src = `./Pictures/2Section4/2Section4-${random2_4}.png`
                 break;
 
             case '2section5':
 
-                item.src = Pictures.section2_5[random2_5]
+                item.src = `./Pictures/2Section5/2Section5-${random2_5}.png`
                 break;
 
             case '2section6':
 
-                item.src = Pictures.section2_6[random2_6]
+                item.src = `./Pictures/2Section6/2Section6-${random2_6}.png`
                 break;
 
             case '2section7':
 
-                item.src = Pictures.section2_7[random2_7]
+                item.src = `./Pictures/2Section7/2Section7-${random2_7}.png`
                 break;
 
             case '2section8':
 
-                item.src = Pictures.section2_8[random2_8]
+                item.src = `./Pictures/2Section8/2Section8-${random2_8}.png`
                 break;
 
             case '3section1':
 
-                item.src = Pictures.section3_1[random3_1]
+                item.src = `./Pictures/3Section1/3Section1-${random3_1}.png`
                 break;
 
             case '3section2':
 
-                   item.src = Pictures.section3_2[random3_2]
+                   item.src = `./Pictures/3Section2/3Section2-${random3_2}.png`
                 break;
     
             case '3section4':
 
-                item.src = Pictures.section3_4[random3_4]
+                item.src = `./Pictures/3Section4/3Section4-${random3_4}.png`
                 break;
     
                 
