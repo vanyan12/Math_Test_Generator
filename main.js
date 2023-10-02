@@ -292,7 +292,9 @@ TrueFalse.forEach(  cell => {
 
 }
 
-let save = document.querySelector('button.save').addEventListener('click', function (){
+let save = document.querySelector('button.save')
+    
+    save.addEventListener('click', function (){
       window.jsPDF = window.jspdf.jsPDF;
 var docPDF = new jsPDF('p', 'pt', 'a4');
 
