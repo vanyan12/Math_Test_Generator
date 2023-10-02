@@ -1,278 +1,6 @@
 window.onload = function(){
 
 
-
-let Pictures = {section1: ['Pictures/Section1/Section1-1.png', 'Pictures/Section1/Section1-2.png', 'Pictures/Section1/Section1-3.png', 
-                           'Pictures/Section1/Section1-4.png', 'Pictures/Section1/Section1-5.png', 'Pictures/Section1/Section1-6.png', 
-                           'Pictures/Section1/Section1-7.png', 'Pictures/Section1/Section1-8.png', 'Pictures/Section1/Section1-9.png', 
-                           'Pictures/Section1/Section1-10.png', 'Pictures/Section1/Section1-11.png', 'Pictures/Section1/Section1-12.png', 
-                           'Pictures/Section1/Section1-13.png', 'Pictures/Section1/Section1-14.png', 'Pictures/Section1/Section1-15.png', 
-                           'Pictures/Section1/Section1-16.png', 'Pictures/Section1/Section1-17.png', 'Pictures/Section1/Section1-18.png', 
-                           'Pictures/Section1/Section1-19.png', 'Pictures/Section1/Section1-20.png', 'Pictures/Section1/Section1-21.png', 
-                           'Pictures/Section1/Section1-22.png', 'Pictures/Section1/Section1-23.png', 'Pictures/Section1/Section1-24.png', 
-                           'Pictures/Section1/Section1-25.png', 'Pictures/Section1/Section1-26.png', 'Pictures/Section1/Section1-27.png', 
-                           'Pictures/Section1/Section1-28.png', 'Pictures/Section1/Section1-29.png', 'Pictures/Section1/Section1-30.png', 
-                           'Pictures/Section1/Section1-31.png', 'Pictures/Section1/Section1-32.png', 'Pictures/Section1/Section1-33.png', 
-                           'Pictures/Section1/Section1-34.png', 'Pictures/Section1/Section1-35.png', 'Pictures/Section1/Section1-36.png', 
-                           'Pictures/Section1/Section1-37.png', ],
-                
-                section2: ['Pictures/Section2/Section2-1.png', 'Pictures/Section2/Section2-2.png', 'Pictures/Section2/Section2-3.png', 
-                           'Pictures/Section2/Section2-4.png', 'Pictures/Section2/Section2-5.png', 'Pictures/Section2/Section2-6.png', 
-                           'Pictures/Section2/Section2-7.png', 'Pictures/Section2/Section2-8.png', 'Pictures/Section2/Section2-9.png', 
-                           'Pictures/Section2/Section2-10.png', 'Pictures/Section2/Section2-11.png', 'Pictures/Section2/Section2-12.png', 
-                           'Pictures/Section2/Section2-13.png', 'Pictures/Section2/Section2-14.png', 'Pictures/Section2/Section2-15.png', 
-                           'Pictures/Section2/Section2-16.png', 'Pictures/Section2/Section2-17.png', 'Pictures/Section2/Section2-18.png', 
-                           'Pictures/Section2/Section2-19.png', 'Pictures/Section2/Section2-20.png', 'Pictures/Section2/Section2-21.png', 
-                           'Pictures/Section2/Section2-22.png', 'Pictures/Section2/Section2-23.png', 'Pictures/Section2/Section2-24.png', 
-                           'Pictures/Section2/Section2-25.png', 'Pictures/Section2/Section2-26.png', 'Pictures/Section2/Section2-27.png', 
-                           'Pictures/Section2/Section2-28.png', 'Pictures/Section2/Section2-29.png', 'Pictures/Section2/Section2-30.png', 
-                           'Pictures/Section2/Section2-31.png', 'Pictures/Section2/Section2-32.png', 'Pictures/Section2/Section2-33.png', 
-                           'Pictures/Section2/Section2-34.png', 'Pictures/Section2/Section2-35.png', 'Pictures/Section2/Section2-36.png', 
-                           'Pictures/Section2/Section2-37.png', 'Pictures/Section2/Section2-38.png', 'Pictures/Section2/Section2-39.png', 
-                           'Pictures/Section2/Section2-40.png', 'Pictures/Section2/Section2-41.png', 'Pictures/Section2/Section2-42.png',
-                           'Pictures/Section2/Section2-43.png', 'Pictures/Section2/Section2-44.png', 'Pictures/Section2/Section2-45.png', 
-                           'Pictures/Section2/Section2-46.png', 'Pictures/Section2/Section2-47.png', 'Pictures/Section2/Section2-48.png', 
-                           'Pictures/Section2/Section2-49.png', 'Pictures/Section2/Section2-50.png', 'Pictures/Section2/Section2-51.png', 
-                           'Pictures/Section2/Section2-52.png', 'Pictures/Section2/Section2-53.png', 'Pictures/Section2/Section2-54.png', 
-                           'Pictures/Section2/Section2-55.png', 'Pictures/Section2/Section2-56.png', 'Pictures/Section2/Section2-57.png', 
-                           'Pictures/Section2/Section2-58.png', 'Pictures/Section2/Section2-59.png', 'Pictures/Section2/Section2-60.png', 
-                           'Pictures/Section2/Section2-61.png', 'Pictures/Section2/Section2-62.png', 'Pictures/Section2/Section2-63.png', 
-                           'Pictures/Section2/Section2-64.png', 'Pictures/Section2/Section2-65.png', 'Pictures/Section2/Section2-66.png', 
-                           'Pictures/Section2/Section2-67.png', 'Pictures/Section2/Section2-68.png', 'Pictures/Section2/Section2-69.png', 
-                           'Pictures/Section2/Section2-70.png', 'Pictures/Section2/Section2-71.png', 'Pictures/Section2/Section2-72.png',
-                           'Pictures/Section2/Section2-73.png', 'Pictures/Section2/Section2-74.png',],
-
-                section3: ['Pictures/Section3/Section3-1.png', 'Pictures/Section3/Section3-2.png', 'Pictures/Section3/Section3-3.png', 
-                           'Pictures/Section3/Section3-4.png', 'Pictures/Section3/Section3-5.png', 'Pictures/Section3/Section3-6.png', 
-                           'Pictures/Section3/Section3-7.png', 'Pictures/Section3/Section3-8.png', 'Pictures/Section3/Section3-9.png', 
-                           'Pictures/Section3/Section3-10.png', 'Pictures/Section3/Section3-11.png', 'Pictures/Section3/Section3-12.png', 
-                           'Pictures/Section3/Section3-13.png', 'Pictures/Section3/Section3-14.png', 'Pictures/Section3/Section3-15.png', 
-                           'Pictures/Section3/Section3-16.png', 'Pictures/Section3/Section3-17.png', 'Pictures/Section3/Section3-18.png', 
-                           'Pictures/Section3/Section3-19.png', 'Pictures/Section3/Section3-20.png', 'Pictures/Section3/Section3-21.png', 
-                           'Pictures/Section3/Section3-22.png', 'Pictures/Section3/Section3-23.png', 'Pictures/Section3/Section3-24.png', 
-                           'Pictures/Section3/Section3-25.png', 'Pictures/Section3/Section3-26.png', 'Pictures/Section3/Section3-27.png', 
-                           'Pictures/Section3/Section3-28.png', 'Pictures/Section3/Section3-29.png', 'Pictures/Section3/Section3-30.png', 
-                           'Pictures/Section3/Section3-31.png', 'Pictures/Section3/Section3-32.png', 'Pictures/Section3/Section3-33.png',
-                           'Pictures/Section3/Section3-34.png', 'Pictures/Section3/Section3-35.png', 'Pictures/Section3/Section3-36.png', 
-                           'Pictures/Section3/Section3-37.png', 'Pictures/Section3/Section3-38.png', 'Pictures/Section3/Section3-39.png', 
-                           'Pictures/Section3/Section3-40.png', 'Pictures/Section3/Section3-41.png', 'Pictures/Section3/Section3-42.png', 
-                           'Pictures/Section3/Section3-43.png', 'Pictures/Section3/Section3-44.png', 'Pictures/Section3/Section3-45.png', 
-                           'Pictures/Section3/Section3-46.png', 'Pictures/Section3/Section3-47.png', 'Pictures/Section3/Section3-48.png', 
-                           'Pictures/Section3/Section3-49.png', 'Pictures/Section3/Section3-50.png', 'Pictures/Section3/Section3-51.png', 
-                           'Pictures/Section3/Section3-52.png', 'Pictures/Section3/Section3-53.png', 'Pictures/Section3/Section3-54.png', 
-                           'Pictures/Section3/Section3-55.png', 'Pictures/Section3/Section3-56.png', 'Pictures/Section3/Section3-57.png', 
-                           'Pictures/Section3/Section3-58.png', 'Pictures/Section3/Section3-59.png', 'Pictures/Section3/Section3-60.png', 
-                           'Pictures/Section3/Section3-61.png', 'Pictures/Section3/Section3-62.png', 'Pictures/Section3/Section3-63.png'],
-
-                section4: ['Pictures/Section4/Section4-1.png', 'Pictures/Section4/Section4-2.png', 'Pictures/Section4/Section4-3.png', 
-                           'Pictures/Section4/Section4-4.png', 'Pictures/Section4/Section4-5.png', 'Pictures/Section4/Section4-6.png', 
-                           'Pictures/Section4/Section4-7.png', 'Pictures/Section4/Section4-8.png', 'Pictures/Section4/Section4-9.png', 
-                           'Pictures/Section4/Section4-10.png', 'Pictures/Section4/Section4-11.png', 'Pictures/Section4/Section4-12.png', 
-                           'Pictures/Section4/Section4-13.png', 'Pictures/Section4/Section4-14.png', 'Pictures/Section4/Section4-15.png', 
-                           'Pictures/Section4/Section4-16.png', 'Pictures/Section4/Section4-17.png', 'Pictures/Section4/Section4-18.png', 
-                           'Pictures/Section4/Section4-19.png', 'Pictures/Section4/Section4-20.png', 'Pictures/Section4/Section4-2.png', 
-                           'Pictures/Section4/Section4-22.png', 'Pictures/Section4/Section4-23.png', 'Pictures/Section4/Section4-24.png', 
-                           'Pictures/Section4/Section4-25.png', 'Pictures/Section4/Section4-26.png'],
-
-                section5: ['Pictures/Section5/Section5-1.png', 'Pictures/Section5/Section5-2.png', 'Pictures/Section5/Section5-3.png', 
-                           'Pictures/Section5/Section5-4.png', 'Pictures/Section5/Section5-5.png', 'Pictures/Section5/Section5-6.png', 
-                           'Pictures/Section5/Section5-7.png', 'Pictures/Section5/Section5-8.png', 'Pictures/Section5/Section5-9.png', 
-                           'Pictures/Section5/Section5-10.png', 'Pictures/Section5/Section5-11.png', 'Pictures/Section5/Section5-12.png', 
-                           'Pictures/Section5/Section5-13.png', 'Pictures/Section5/Section5-14.png', 'Pictures/Section5/Section5-15.png', 
-                           'Pictures/Section5/Section5-16.png', 'Pictures/Section5/Section5-17.png', 'Pictures/Section5/Section5-18.png', 
-                           'Pictures/Section5/Section5-19.png', 'Pictures/Section5/Section5-20.png', 'Pictures/Section5/Section5-2.png', 
-                           'Pictures/Section5/Section5-22.png', 'Pictures/Section5/Section5-23.png', 'Pictures/Section5/Section5-24.png'],
-
-                section6: ['Pictures/Section6/Section6-1.png', 'Pictures/Section6/Section6-2.png', 'Pictures/Section6/Section6-3.png', 
-                           'Pictures/Section6/Section6-4.png', 'Pictures/Section6/Section6-5.png', 'Pictures/Section6/Section6-6.png', 
-                           'Pictures/Section6/Section6-7.png', 'Pictures/Section6/Section6-8.png', 'Pictures/Section6/Section6-9.png', 
-                           'Pictures/Section6/Section6-10.png', 'Pictures/Section6/Section6-11.png', 'Pictures/Section6/Section6-12.png', 
-                           'Pictures/Section6/Section6-13.png', 'Pictures/Section6/Section6-14.png', 'Pictures/Section6/Section6-15.png', 
-                           'Pictures/Section6/Section6-16.png', 'Pictures/Section6/Section6-17.png', 'Pictures/Section6/Section6-18.png', 
-                           'Pictures/Section6/Section6-19.png', 'Pictures/Section6/Section6-20.png', 'Pictures/Section6/Section6-2.png', 
-                           'Pictures/Section6/Section6-22.png', 'Pictures/Section6/Section6-23.png' ],
-
-                section7: ['Pictures/Section7/Section7-1.png', 'Pictures/Section7/Section7-2.png', 'Pictures/Section7/Section7-3.png', 
-                           'Pictures/Section7/Section7-4.png', 'Pictures/Section7/Section7-5.png', 'Pictures/Section7/Section7-6.png', 
-                           'Pictures/Section7/Section7-7.png', 'Pictures/Section7/Section7-8.png', 'Pictures/Section7/Section7-9.png', 
-                           'Pictures/Section7/Section7-10.png', 'Pictures/Section7/Section7-11.png', 'Pictures/Section7/Section7-12.png', 
-                           'Pictures/Section7/Section7-13.png', 'Pictures/Section7/Section7-14.png', 'Pictures/Section7/Section7-15.png', 
-                           'Pictures/Section7/Section7-16.png', 'Pictures/Section7/Section7-17.png', 'Pictures/Section7/Section7-18.png', 
-                           'Pictures/Section7/Section7-19.png', 'Pictures/Section7/Section7-20.png'],
-
-                section8: ['Pictures/Section8/Section8-1.png', 'Pictures/Section8/Section8-2.png', 'Pictures/Section8/Section8-3.png', 
-                           'Pictures/Section8/Section8-4.png', 'Pictures/Section8/Section8-5.png', 'Pictures/Section8/Section8-6.png', 
-                           'Pictures/Section8/Section8-7.png', 'Pictures/Section8/Section8-8.png', 'Pictures/Section8/Section8-9.png', 
-                           'Pictures/Section8/Section8-10.png', 'Pictures/Section8/Section8-11.png', 'Pictures/Section8/Section8-12.png', 
-                           'Pictures/Section8/Section8-13.png', 'Pictures/Section8/Section8-14.png', 'Pictures/Section8/Section8-15.png', 
-                           'Pictures/Section8/Section8-16.png', 'Pictures/Section8/Section8-17.png', 'Pictures/Section8/Section8-18.png', 
-                           'Pictures/Section8/Section8-19.png', 'Pictures/Section8/Section8-20.png', 'Pictures/Section8/Section8-21.png', 
-                           'Pictures/Section8/Section8-22.png', 'Pictures/Section8/Section8-23.png', 'Pictures/Section8/Section8-24.png', 
-                           'Pictures/Section8/Section8-25.png', 'Pictures/Section8/Section8-26.png', 'Pictures/Section8/Section8-27.png', 
-                           'Pictures/Section8/Section8-28.png', 'Pictures/Section8/Section8-29.png', 'Pictures/Section8/Section8-30.png', 
-                           'Pictures/Section8/Section8-31.png', 'Pictures/Section8/Section8-32.png', 'Pictures/Section8/Section8-33.png',
-                           'Pictures/Section8/Section8-34.png'], 
-                           
-                section9: ['Pictures/Section9/Section9-1.png', 'Pictures/Section9/Section9-2.png', 'Pictures/Section9/Section9-3.png', 
-                           'Pictures/Section9/Section9-4.png', 'Pictures/Section9/Section9-5.png', 'Pictures/Section9/Section9-6.png', 
-                           'Pictures/Section9/Section9-7.png', 'Pictures/Section9/Section9-8.png', 'Pictures/Section9/Section9-9.png', 
-                           'Pictures/Section9/Section9-10.png', 'Pictures/Section9/Section9-11.png', 'Pictures/Section9/Section9-12.png', 
-                           'Pictures/Section9/Section9-13.png', 'Pictures/Section9/Section9-14.png', 'Pictures/Section9/Section9-15.png', 
-                           'Pictures/Section9/Section9-16.png', 'Pictures/Section9/Section9-17.png', 'Pictures/Section9/Section9-18.png', 
-                           'Pictures/Section9/Section9-19.png', 'Pictures/Section9/Section9-20.png', 'Pictures/Section9/Section9-2.png', 
-                           'Pictures/Section9/Section9-22.png', 'Pictures/Section9/Section9-23.png'],
-
-                section10: ['Pictures/Section10/Section10-1.png', 'Pictures/Section10/Section10-2.png', 'Pictures/Section10/Section10-3.png', 
-                            'Pictures/Section10/Section10-4.png', 'Pictures/Section10/Section10-5.png', 'Pictures/Section10/Section10-6.png', 
-                            'Pictures/Section10/Section10-7.png', 'Pictures/Section10/Section10-8.png', 'Pictures/Section10/Section10-9.png', 
-                            'Pictures/Section10/Section10-10.png', 'Pictures/Section10/Section10-11.png', 'Pictures/Section10/Section10-12.png', 
-                            'Pictures/Section10/Section10-13.png', 'Pictures/Section10/Section10-14.png', 'Pictures/Section10/Section10-15.png', 
-                            'Pictures/Section10/Section10-16.png', 'Pictures/Section10/Section10-17.png', 'Pictures/Section10/Section10-18.png', 
-                            'Pictures/Section10/Section10-19.png', 'Pictures/Section10/Section10-20.png', 'Pictures/Section10/Section10-2.png', 
-                            'Pictures/Section10/Section10-22.png', 'Pictures/Section10/Section10-23.png', 'Pictures/Section10/Section10-24.png', 
-                            'Pictures/Section10/Section10-25.png', 'Pictures/Section10/Section10-26.png'],
-
-                section2_1: ['Pictures/2Section1/2Section1-1.png', 'Pictures/2Section1/2Section1-2.png', 'Pictures/2Section1/2Section1-3.png',
-                             'Pictures/2Section1/2Section1-4.png', 'Pictures/2Section1/2Section1-5.png', 'Pictures/2Section1/2Section1-6.png',
-                             'Pictures/2Section1/2Section1-7.png', 'Pictures/2Section1/2Section1-8.png', 'Pictures/2Section1/2Section1-9.png',
-                             'Pictures/2Section1/2Section1-10.png', 'Pictures/2Section1/2Section1-11.png', 'Pictures/2Section1/2Section1-12.png',
-                             'Pictures/2Section1/2Section1-13.png', 'Pictures/2Section1/2Section1-14.png', 'Pictures/2Section1/2Section1-15.png',
-                             'Pictures/2Section1/2Section1-16.png', 'Pictures/2Section1/2Section1-17.png', 'Pictures/2Section1/2Section1-18.png',
-                             'Pictures/2Section1/2Section1-19.png', 'Pictures/2Section1/2Section1-20.png', 'Pictures/2Section1/2Section1-21.png' ],
-
-                section2_2: ['Pictures/2Section2/2Section2-1.png', 'Pictures/2Section2/2Section2-2.png', 'Pictures/2Section2/2Section2-3.png',
-                             'Pictures/2Section2/2Section2-4.png', 'Pictures/2Section2/2Section2-5.png', 'Pictures/2Section2/2Section2-6.png',
-                             'Pictures/2Section2/2Section2-7.png', 'Pictures/2Section2/2Section2-8.png', 'Pictures/2Section2/2Section2-9.png',
-                             'Pictures/2Section2/2Section2-10.png', 'Pictures/2Section2/2Section2-11.png', 'Pictures/2Section2/2Section2-12.png',
-                             'Pictures/2Section2/2Section2-13.png', 'Pictures/2Section2/2Section2-14.png', 'Pictures/2Section2/2Section2-15.png',
-                             'Pictures/2Section2/2Section2-16.png', 'Pictures/2Section2/2Section2-17.png', 'Pictures/2Section2/2Section2-18.png',
-                             'Pictures/2Section2/2Section2-19.png' ],
-
-                section2_3: ['Pictures/2Section3/2Section3-1.png', 'Pictures/2Section3/2Section3-2.png', 'Pictures/2Section3/2Section3-3.png',
-                             'Pictures/2Section3/2Section3-4.png', 'Pictures/2Section3/2Section3-5.png', 'Pictures/2Section3/2Section3-6.png',
-                             'Pictures/2Section3/2Section3-7.png', 'Pictures/2Section3/2Section3-8.png', 'Pictures/2Section3/2Section3-9.png',
-                             'Pictures/2Section3/2Section3-10.png', 'Pictures/2Section3/2Section3-11.png', 'Pictures/2Section3/2Section3-12.png',
-                             'Pictures/2Section3/2Section3-13.png', 'Pictures/2Section3/2Section3-14.png', 'Pictures/2Section3/2Section3-15.png',
-                             'Pictures/2Section3/2Section3-16.png', 'Pictures/2Section3/2Section3-17.png', 'Pictures/2Section3/2Section3-18.png',
-                             'Pictures/2Section3/2Section3-19.png'],
-
-                section2_4: ['Pictures/2Section4/2Section4-1.png', 'Pictures/2Section4/2Section4-2.png', 'Pictures/2Section4/2Section4-3.png',
-                             'Pictures/2Section4/2Section4-4.png', 'Pictures/2Section4/2Section4-5.png', 'Pictures/2Section4/2Section4-6.png',
-                             'Pictures/2Section4/2Section4-7.png', 'Pictures/2Section4/2Section4-8.png', 'Pictures/2Section4/2Section4-9.png',
-                             'Pictures/2Section4/2Section4-10.png', 'Pictures/2Section4/2Section4-11.png', 'Pictures/2Section4/2Section4-12.png',
-                             'Pictures/2Section4/2Section4-13.png', 'Pictures/2Section4/2Section4-14.png', 'Pictures/2Section4/2Section4-15.png',
-                             'Pictures/2Section4/2Section4-16.png', 'Pictures/2Section4/2Section4-17.png', 'Pictures/2Section4/2Section4-18.png',
-                             'Pictures/2Section4/2Section4-19.png', 'Pictures/2Section4/2Section4-20.png', 'Pictures/2Section4/2Section4-21.png'],
-
-                section2_5: ['Pictures/2Section5/2Section5-1.png', 'Pictures/2Section5/2Section5-2.png', 'Pictures/2Section5/2Section5-3.png',
-                             'Pictures/2Section5/2Section5-4.png', 'Pictures/2Section5/2Section5-5.png', 'Pictures/2Section5/2Section5-6.png',
-                             'Pictures/2Section5/2Section5-7.png', 'Pictures/2Section5/2Section5-8.png', 'Pictures/2Section5/2Section5-9.png',
-                             'Pictures/2Section5/2Section5-10.png', 'Pictures/2Section5/2Section5-11.png', 'Pictures/2Section5/2Section5-12.png',
-                             'Pictures/2Section5/2Section5-13.png', 'Pictures/2Section5/2Section5-14.png', 'Pictures/2Section5/2Section5-15.png',
-                             'Pictures/2Section5/2Section5-16.png', 'Pictures/2Section5/2Section5-17.png', 'Pictures/2Section5/2Section5-18.png',
-                             'Pictures/2Section5/2Section5-19.png', 'Pictures/2Section5/2Section5-20.png', 'Pictures/2Section5/2Section5-21.png',
-                             'Pictures/2Section5/2Section5-22.png', 'Pictures/2Section5/2Section5-23.png', 'Pictures/2Section5/2Section5-24.png',
-                             'Pictures/2Section5/2Section5-25.png', 'Pictures/2Section5/2Section5-26.png', 'Pictures/2Section5/2Section5-27.png',
-                             'Pictures/2Section5/2Section5-28.png', 'Pictures/2Section5/2Section5-29.png', 'Pictures/2Section5/2Section5-30.png',
-                             'Pictures/2Section5/2Section5-31.png', 'Pictures/2Section5/2Section5-32.png', 'Pictures/2Section5/2Section5-33.png',
-                             'Pictures/2Section5/2Section5-34.png', 'Pictures/2Section5/2Section5-35.png'],
-
-                section2_6: ['Pictures/2Section6/2Section6-1.png', 'Pictures/2Section6/2Section6-2.png', 'Pictures/2Section6/2Section6-3.png',
-                             'Pictures/2Section6/2Section6-4.png', 'Pictures/2Section6/2Section6-5.png', 'Pictures/2Section6/2Section6-6.png',
-                             'Pictures/2Section6/2Section6-7.png', 'Pictures/2Section6/2Section6-8.png', 'Pictures/2Section6/2Section6-9.png',
-                             'Pictures/2Section6/2Section6-10.png', 'Pictures/2Section6/2Section6-11.png', 'Pictures/2Section6/2Section6-12.png',
-                             'Pictures/2Section6/2Section6-13.png', 'Pictures/2Section6/2Section6-14.png', 'Pictures/2Section6/2Section6-15.png',
-                             'Pictures/2Section6/2Section6-16.png', 'Pictures/2Section6/2Section6-17.png', 'Pictures/2Section6/2Section6-18.png',
-                             'Pictures/2Section6/2Section6-19.png', 'Pictures/2Section6/2Section6-20.png', 'Pictures/2Section6/2Section6-21.png',
-                             'Pictures/2Section6/2Section6-22.png', 'Pictures/2Section6/2Section6-23.png', 'Pictures/2Section6/2Section6-24.png',
-                             'Pictures/2Section6/2Section6-25.png', 'Pictures/2Section6/2Section6-26.png', 'Pictures/2Section6/2Section6-27.png',
-                             'Pictures/2Section6/2Section6-28.png', 'Pictures/2Section6/2Section6-29.png', 'Pictures/2Section6/2Section6-30.png',
-                             'Pictures/2Section6/2Section6-31.png', 'Pictures/2Section6/2Section6-32.png', 'Pictures/2Section6/2Section6-33.png',
-                             'Pictures/2Section6/2Section6-34.png', 'Pictures/2Section6/2Section6-33.png', 'Pictures/2Section6/2Section6-36.png',
-                             'Pictures/2Section6/2Section6-37.png', 'Pictures/2Section6/2Section6-38.png', 'Pictures/2Section6/2Section6-39.png',
-                             'Pictures/2Section6/2Section6-40.png', 'Pictures/2Section6/2Section6-41.png', 'Pictures/2Section6/2Section6-42.png',
-                             'Pictures/2Section6/2Section6-43.png'],
-
-                section2_7: ['Pictures/2Section7/2Section7-1.png', 'Pictures/2Section7/2Section7-2.png', 'Pictures/2Section7/2Section7-3.png',
-                             'Pictures/2Section7/2Section7-4.png', 'Pictures/2Section7/2Section7-5.png', 'Pictures/2Section7/2Section7-6.png',
-                             'Pictures/2Section7/2Section7-7.png', 'Pictures/2Section7/2Section7-8.png', 'Pictures/2Section7/2Section7-9.png',
-                             'Pictures/2Section7/2Section7-10.png', 'Pictures/2Section7/2Section7-11.png', 'Pictures/2Section7/2Section7-12.png',
-                             'Pictures/2Section7/2Section7-13.png', 'Pictures/2Section7/2Section7-14.png', 'Pictures/2Sectionn7/2Section7-15.png',
-                             'Pictures/2Section7/2Section7-16.png', 'Pictures/2Section7/2Section7-17.png', 'Pictures/2Section7/2Section7-18.png',
-                             'Pictures/2Section7/2Section7-19.png', 'Pictures/2Section7/2Section7-20.png', 'Pictures/2Section7/2Section7-21.png',
-                             'Pictures/2Section7/2Section7-22.png', 'Pictures/2Section7/2Section7-23.png', 'Pictures/2Section7/2Section7-24.png',
-                             'Pictures/2Section7/2Section7-25.png', 'Pictures/2Section7/2Section7-26.png', 'Pictures/2Section7/2Section7-27.png',
-                             'Pictures/2Section7/2Section7-28.png', 'Pictures/2Section7/2Section7-29.png'],
-                section2_8: ['Pictures/2Section8/2Section8-1.png', 'Pictures/2Section8/2Section8-2.png', 'Pictures/2Section8/2Section8-3.png',
-                             'Pictures/2Section8/2Section8-4.png', 'Pictures/2Section8/2Section8-5.png', 'Pictures/2Section8/2Section8-6.png',
-                             'Pictures/2Section8/2Section8-7.png', 'Pictures/2Section8/2Section8-8.png', 'Pictures/2Section8/2Section8-9.png',
-                             'Pictures/2Section8/2Section8-10.png', 'Pictures/2Section8/2Section8-11.png', 'Pictures/2Section8/2Section8-12.png',
-                             'Pictures/2Section8/2Section8-13.png', 'Pictures/2Section8/2Section8-14.png', 'Pictures/2Section8/2Section8-15.png',
-                             'Pictures/2Section8/2Section8-16.png', 'Pictures/2Section8/2Section8-17.png', 'Pictures/2Section8/2Section8-18.png',
-                             'Pictures/2Section8/2Section8-19.png', 'Pictures/2Section8/2Section8-20.png', 'Pictures/2Section8/2Section8-21.png',
-                             'Pictures/2Section8/2Section8-22.png', 'Pictures/2Section8/2Section8-23.png', 'Pictures/2Section8/2Section8-24.png',
-                             'Pictures/2Section8/2Section8-25.png', 'Pictures/2Section8/2Section8-26.png', 'Pictures/2Section8/2Section8-27.png',
-                             'Pictures/2Section8/2Section8-28.png', 'Pictures/2Section8/2Section8-29.png', 'Pictures/2Section8/2Section8-30.png', 
-                             'Pictures/2Section8/2Section8-31.png', 'Pictures/2Section8/2Section8-32.png', 'Pictures/2Section8/2Section8-33.png', 
-                             'Pictures/2Section8/2Section8-34.png', 'Pictures/2Section8/2Section8-35.png', 'Pictures/2Section8/2Section8-36.png', 
-                             'Pictures/2Section8/2Section8-37.png', 'Pictures/2Section8/2Section8-38.png', 'Pictures/2Section8/2Section8-39.png', 
-                             'Pictures/2Section8/2Section8-40.png', 'Pictures/2Section8/2Section8-41.png', 'Pictures/2Section8/2Section8-42.png', 
-                             'Pictures/2Section8/2Section8-43.png', 'Pictures/2Sectionn8/2Section8-44.png', 'Pictures/2Section8/2Section8-45.png', 
-                             'Pictures/2Section8/2Section8-46.png', 'Pictures/2Section8/2Section8-47.png', 'Pictures/2Section8/2Section8-48.png', 
-                             'Pictures/2Section8/2Section8-49.png', 'Pictures/2Section8/2Section8-50.png'],
-
-                section3_1: ['Pictures/3Section1/3Section1-1.png', 'Pictures/3Section1/3Section1-2.png', 'Pictures/3Section1/3Section1-3.png', 
-                             'Pictures/3Section1/3Section1-4.png', 'Pictures/3Section1/3Section1-5.png', 'Pictures/3Section1/3Section1-6.png', 
-                             'Pictures/3Section1/3Section1-7.png', 'Pictures/3Section1/3Section1-8.png', 'Pictures/3Section1/3Section1-9.png', 
-                             'Pictures/3Section1/3Section1-10.png', 'Pictures/3Section1/3Section1-11.png', 'Pictures/3Section1/3Section1-12.png', 
-                             'Pictures/3Section1/3Section1-13.png', 'Pictures/3Section1/3Section1-14.png', 'Pictures/3Section1/3Section1-15.png', 
-                             'Pictures/3Section1/3Section1-16.png', 'Pictures/3Section1/3Section1-17.png', 'Pictures/3Section1/3Section1-18.png', 
-                             'Pictures/3Section1/3Section1-19.png', 'Pictures/3Section1/3Section1-20.png', 'Pictures/3Section1/3Section1-2.png', 
-                             'Pictures/3Section1/3Section1-22.png', 'Pictures/3Section1/3Section1-23.png', 'Pictures/3Section1/3Section1-24.png', 
-                             'Pictures/3Section1/3Section1-25.png', 'Pictures/3Section1/3Section1-26.png', 'Pictures/3Section1/3Section1-27.png',
-                             'Pictures/3Section1/3Section1-28.png', 'Pictures/3Section1/3Section1-29.png', 'Pictures/3Section1/3Section1-30.png', 
-                             'Pictures/3Section1/3Section1-31.png', 'Pictures/3Section1/3Section1-32.png', 'Pictures/3Section1/3Section1-33.png', 
-                             'Pictures/3Section1/3Section1-34.png', 'Pictures/3Section1/3Section1-35.png', 'Pictures/3Section1/3Section1-36.png', 
-                             'Pictures/3Section1/3Section1-37.png', 'Pictures/3Section1/3Section1-38.png', 'Pictures/3Section1/3Section1-39.png', 
-                             'Pictures/3Section1/3Section1-40.png', 'Pictures/3Section1/3Section1-41.png', 'Pictures/3Section1/3Section1-42.png', 
-                             'Pictures/3Section1/3Section1-43.png', 'Pictures/3Section1/3Section1-44.png', 'Pictures/3Section1/3Section1-45.png', 
-                             'Pictures/3Section1/3Section1-46.png'],
-
-                section3_2: ['Pictures/3Section2/3Section2-1.png', 'Pictures/3Section2/3Section2-2.png', 'Pictures/3Section2/3Section2-3.png', 
-                             'Pictures/3Section2/3Section2-4.png', 'Pictures/3Section2/3Section2-5.png', 'Pictures/3Section2/3Section2-6.png', 
-                             'Pictures/3Section2/3Section2-7.png', 'Pictures/3Section2/3Section2-8.png', 'Pictures/3Section2/3Section2-9.png', 
-                             'Pictures/3Section2/3Section2-10.png', 'Pictures/3Section2/3Section2-11.png', 'Pictures/3Section2/3Section2-12.png', 
-                             'Pictures/3Section2/3Section2-13.png', 'Pictures/3Section2/3Section2-14.png', 'Pictures/3Section2/3Section2-15.png', 
-                             'Pictures/3Section2/3Section2-16.png', 'Pictures/3Section2/3Section2-17.png', 'Pictures/3Section2/3Section2-18.png', 
-                             'Pictures/3Section2/3Section2-19.png', 'Pictures/3Section2/3Section2-20.png', 'Pictures/3Section2/3Section2-21.png', 
-                             'Pictures/3Section2/3Section2-22.png', 'Pictures/3Section2/3Section2-23.png', 'Pictures/3Section2/3Section2-24.png', 
-                             'Pictures/3Section2/3Section2-25.png', 'Pictures/3Section2/3Section2-26.png', 'Pictures/3Section2/3Section2-27.png', 
-                             'Pictures/3Section2/3Section2-28.png', 'Pictures/3Section2/3Section2-29.png', 'Pictures/3Section2/3Section2-30.png', 
-                             'Pictures/3Section2/3Section2-31.png', 'Pictures/3Section2/3Section2-32.png', 'Pictures/3Section2/3Section2-33.png', 
-                             'Pictures/3Section2/3Section2-34.png', 'Pictures/3Section2/3Section2-35.png', 'Pictures/3Section2/3Section2-36.png', 
-                             'Pictures/3Section2/3Section2-37.png', 'Pictures/3Section2/3Section2-38.png', 'Pictures/3Section2/3Section2-39.png', 
-                             'Pictures/3Section2/3Section2-40.png', 'Pictures/3Section2/3Section2-41.png', 'Pictures/3Section2/3Section2-42.png', 
-                             'Pictures/3Section2/3Section2-43.png', 'Pictures/3Section2/3Section2-44.png', 'Pictures/3Section2/3Section2-45.png', 
-                             'Pictures/3Section2/3Section2-46.png', 'Pictures/3Section2/3Section2-47.png', 'Pictures/3Section2/3Section2-48.png', 
-                             'Pictures/3Section2/3Section2-49.png', 'Pictures/3Section2/3Section2-50.png', 'Pictures/3Section2/3Section2-51.png', 
-                             'Pictures/3Section2/3Section2-52.png', 'Pictures/3Section2/3Section2-53.png', 'Pictures/3Section2/3Section2-54.png', 
-                             'Pictures/3Section2/3Section2-55.png', 'Pictures/3Section2/3Section2-56.png', 'Pictures/3Section2/3Section2-57.png', 
-                             'Pictures/3Section2/3Section2-58.png', 'Pictures/3Section2/3Section2-59.png', 'Pictures/3Section2/3Section2-60.png', 
-                             'Pictures/3Section2/3Section2-61.png', 'Pictures/3Section2/3Section2-62.png', 'Pictures/3Section2/3Section2-63.png', 
-                             'Pictures/3Section2/3Section2-64.png', 'Pictures/3Section2/3Section2-65.png', 'Pictures/3Section2/3Section2-66.png', 
-                             'Pictures/3Section2/3Section2-67.png', 'Pictures/3Section2/3Section2-68.png', 'Pictures/3Section2/3Section2-69.png', 
-                             'Pictures/3Section2/3Section2-70.png', 'Pictures/3Section2/3Section2-71.png', 'Pictures/3Section2/3Section2-72.png', 
-                             'Pictures/3Section2/3Section2-73.png', 'Pictures/3Section2/3Section2-74.png', 'Pictures/3Section2/3Section2-75.png', 
-                             'Pictures/3Section2/3Section2-76.png', 'Pictures/3Section2/3Section2-77.png'],
-                             
-                section3_4: ['Pictures/3Section4/3Section4-1.png', 'Pictures/3Section4/3Section4-2.png', 'Pictures/3Section4/3Section4-3.png', 
-                             'Pictures/3Section4/3Section4-4.png', 'Pictures/3Section4/3Section4-5.png', 'Pictures/3Section4/3Section4-6.png', 
-                             'Pictures/3Section4/3Section4-7.png', 'Pictures/3Section4/3Section4-8.png', 'Pictures/3Section4/3Section4-9.png', 
-                             'Pictures/3Section4/3Section4-10.png', 'Pictures/3Section4/3Section4-11.png', 'Pictures/3Section4/3Section4-12.png', 
-                             'Pictures/3Section4/3Section4-13.png', 'Pictures/3Section4/3Section4-14.png', 'Pictures/3Section4/3Section4-15.png', 
-                             'Pictures/3Section4/3Section4-16.png'],
-                        }
-
 let Answers = {
 
     section1: [2231, 4211, 3442, 4333, 2334, 2334, 3241, 1124, 2122, 
@@ -367,27 +95,27 @@ let Answers = {
                         
 
 
-             let random1 = Math.round(Math.random() * Pictures.section1.length)
-             let random2 = Math.round(Math.random() * Pictures.section2.length)
-             let random3 = Math.round(Math.random() * Pictures.section3.length)
-             let random4 = Math.round(Math.random() * Pictures.section4.length)
-             let random5 = Math.round(Math.random() * Pictures.section5.length)
-             let random6 = Math.round(Math.random() * Pictures.section6.length)
-             let random7 = Math.round(Math.random() * Pictures.section7.length)
-             let random8 = Math.round(Math.random() * Pictures.section8.length)
-             let random9 = Math.round(Math.random() * Pictures.section9.length)
-             let random10 = Math.round(Math.random() * Pictures.section10.length)
-             let random2_1 = Math.round(Math.random() * Pictures.section2_1.length)
-             let random2_2 = Math.round(Math.random() * Pictures.section2_2.length)
-             let random2_3 = Math.round(Math.random() * Pictures.section2_3.length)
-             let random2_4 = Math.round(Math.random() * Pictures.section2_4.length)
-             let random2_5 = Math.round(Math.random() * Pictures.section2_5.length)
-             let random2_6 = Math.round(Math.random() * Pictures.section2_6.length)
-             let random2_7 = Math.round(Math.random() * Pictures.section2_7.length)
-             let random2_8 = Math.round(Math.random() * Pictures.section2_8.length)
-             let random3_1 = Math.round(Math.random() * Pictures.section3_1.length)
-             let random3_2 = Math.round(Math.random() * Pictures.section3_2.length)
-             let random3_4 = Math.round(Math.random() * Pictures.section3_4.length)
+             let random1 = Math.ceil(Math.random() * 36) 
+             let random2 = Math.ceil(Math.random() * 72)
+             let random3 = Math.ceil(Math.random() * 62)
+             let random4 = Math.ceil(Math.random() * 25)
+             let random5 = Math.ceil(Math.random() * 23)
+             let random6 = Math.ceil(Math.random() * 22)
+             let random7 = Math.ceil(Math.random() * 19)
+             let random8 = Math.ceil(Math.random() * 33)
+             let random9 = Math.ceil(Math.random() * 22)
+             let random10 = Math.ceil(Math.random() * 25)
+             let random2_1 = Math.ceil(Math.random() * 20)
+             let random2_2 = Math.ceil(Math.random() * 18)
+             let random2_3 = Math.ceil(Math.random() * 18)
+             let random2_4 = Math.ceil(Math.random() * 20)
+             let random2_5 = Math.ceil(Math.random() * 34)
+             let random2_6 = Math.ceil(Math.random() * 42)
+             let random2_7 = Math.ceil(Math.random() * 28)
+             let random2_8 = Math.ceil(Math.random() * 49)
+             let random3_1 = Math.ceil(Math.random() * 45)
+             let random3_2 = Math.ceil(Math.random() * 76)
+             let random3_4 = Math.ceil(Math.random() * 15)
 
 
 
