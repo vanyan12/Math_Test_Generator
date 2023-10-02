@@ -294,7 +294,7 @@ TrueFalse.forEach(  cell => {
 
 let save = document.querySelector('button.save').onclick = function (){
       window.jsPDF = window.jspdf.jsPDF;
-var docPDF = new jsPDF();
+var docPDF = new jsPDF('p', 'pt', 'a4');
 
 var elementHTML = document.body;
 docPDF.html(elementHTML, {
