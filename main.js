@@ -230,7 +230,6 @@ let Tasks = document.querySelectorAll('img').forEach(function(item){
         }
 })
 
-sessionStorage.setItem('1', '115');
 
 //================================== ===================================================
 let tableAnswer = Array.from(document.querySelectorAll('td'))
@@ -293,17 +292,21 @@ TrueFalse.forEach(  cell => {
 }
 
 let save = document.querySelector('button.save').onclick = function (){
-      let elem = document.getElementById('wrap')
-
-    let doc = new jsPDF()
-
-     html2canvas(elem, {
-        allowTaint: true,
-        useCORS: true
-    }).then((canvas) => {
-        doc.addImage(canvas.toDataURL("image/png", 'PNG', 5, 5, ))
-    })
-    doc.save('a4.pdf')
+      window.jsPDF = window.jspdf.jsPDF;
+var docPDF = new jsPDF();
+function print(){
+var elementHTML = document.querySelector("#printTable");
+docPDF.html(elementHTML, {
+ callback: function(docPDF) {
+  docPDF.save('HTML Linuxhint web page.pdf');
+ },
+ x: 15,
+ y: 15,
+ width: 170,
+ windowWidth: 650
+});
+}
+    console.log('done')
 
 }
 
