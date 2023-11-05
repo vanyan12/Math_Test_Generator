@@ -5,7 +5,7 @@ $(document).ready(() => {
     console.log(TaskImgs)
 
        TaskImgs.forEach((image) => {
-        image.scr = `../Pictures/$(image.id)/$(image.id)-Math.round(Math.random * 10).png`
+        image.scr = `../Pictures/$(image.id)/$(image.id)-Math.round(Math.random() * 10).png`
        })
 
 })
