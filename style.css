@@ -19,11 +19,11 @@ body {
     gap: 15px;
     padding: 40px 0;
     width: 90vw;
-    background-color: #21618C;
+    /* background-color: #21618C; */
 }
 
 .tasks > div {
-    background-color: #5DADE2;
+    /* background-color: #5DADE2; */
     display: flex;
 }
 
@@ -40,5 +40,5 @@ body {
     align-items: center;
     gap: 30px;
     padding: 10px;
-    background-color: #21618C;
+    /* background-color: #21618C; */
 }
