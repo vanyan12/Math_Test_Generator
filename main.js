@@ -1,27 +1,27 @@
 $(document).ready(() => {
     let TaskImgs = document.querySelectorAll('img')
     let SecCount = {
-        'Section1': 37,
-        'Section2': 73,
-        'Section3': 63,
-        'Section4': 49,
+        'Section1': 36,
+        'Section2': 72,
+        'Section3': 62,
+        'Section4': 48,
         'Section5': 66,
-        'Section6': 23,
-        'Section7': 20,
-        'Section8': 68,
-        'Section9': 23,
-        'Section10': 26,
-        '2Section1': 43,
-        '2Section2': 19,
-        '2Section3': 19,
-        '2Section4': 23,
-        '2Section5': 35,
-        '2Section6': 43,
-        '2Section7': 29,
-        '2Section8': 86,
-        '3Section1': 46,
-        '3Section2': 77,
-        '3Section4': 16   
+        'Section6': 22,
+        'Section7': 19,
+        'Section8': 67,
+        'Section9': 22,
+        'Section10': 25,
+        '2Section1': 42,
+        '2Section2': 18,
+        '2Section3': 18,
+        '2Section4': 22,
+        '2Section5': 34,
+        '2Section6': 42,
+        '2Section7': 28,
+        '2Section8': 85,
+        '3Section1': 45,
+        '3Section2': 76,
+        '3Section4': 15   
     }
 
 
