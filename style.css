@@ -27,6 +27,10 @@ body {
     display: flex;
 }
 
+.tasks > div > p {
+    font-size: 25px;
+}
+
 .tasks > div > img {
     height: 300px;
     width: 550px;
