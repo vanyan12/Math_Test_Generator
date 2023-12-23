@@ -56,4 +56,6 @@ $(document).ready(() => {
        btn.addEventListener('click', ()=> {
         makePdf()
        })
+
+       console.log("ds")
 })
