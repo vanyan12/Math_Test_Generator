@@ -25,37 +25,5 @@ $(document).ready(() => {
     }
 
 
-       TaskImgs.forEach((image) => {
-        image.src = `Pictures/${image.id}/${image.id}-${(Math.ceil(Math.random() * SecCount[image.id]))}.png`
-       })
-
-       window.html2canvas = html2canvas;
-       window.jsPDF = window.jspdf.jsPDF;
-
-       function makePdf (){
-
-        html2canvas(document.querySelector("#capture"),{
-
-            allowTaint:true,
-            useCORS:true,
-            scale:1
-
-        }).then(canvas => {
-            document.body.appendChild(canvas)
-            let img = canvas.toDataURL("image/png");
-            let doc = new jsPDF('p', 'mm', [297, 210])
-
-            doc.addImage(img,'PNG', 0,0,200,300)
-            doc.save("file.pdf")
-        });
-
-       }
-
-       let btn = document.getElementById('save')
-
-       btn.addEventListener('click', ()=> {
-        makePdf()
-       })
-
        console.log("ds")
 })
